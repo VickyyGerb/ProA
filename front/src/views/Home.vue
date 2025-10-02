@@ -73,7 +73,7 @@ const stats = ref([
   {
     label: "AÑOS DE TRAYECTORIA",
     icon: "/file-LSPVMpLN8HxB5VhzXWxw7q.png",
-    target: 10,
+    target: 11,
     current: 0,
   },
 ]);
@@ -132,7 +132,7 @@ onUnmounted(() => {
 .hero {
   width: 90%;
   max-width: 1300px;
-  height: 500px;
+  height: 600px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -162,7 +162,7 @@ onUnmounted(() => {
 /* Estadísticas */
 .stats-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 4rem;
   background-color: #f0f2f5;
   padding: 3rem 2rem;
@@ -184,14 +184,14 @@ onUnmounted(() => {
 }
 
 .stat .number {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #008ae6;
   margin-bottom: 0.5rem;
 }
 
 .stat .label {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #0a3d62;
 }
 
